@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+<extension id="product" point="org.eclipse.core.runtime.products">
+	<product name="DCQ" application="at.bestsolution.efxclipse.runtime.workbench.fx.application" >
+		<property name="appName" value="DCQ" />
+		
+		<property name="applicationXMI" value="de.dc.jfx.freesms.app.app/Application.e4xmi" />
+		
+		<property name="cssTheme" value="theme.default" />
+		
+	</product>
+	
+</extension>
+<extension  point="at.bestsolution.efxclipse.runtime.theme">
+	<theme id="theme.default" basestylesheet="css/default.css" />
+	
+</extension>
+</plugin>

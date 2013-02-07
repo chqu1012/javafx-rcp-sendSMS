@@ -1,0 +1,5 @@
+/** digitalclock.css (place in the same directory as DigitalClock.java and ensure build script copies the file to the same location as DigitalClock.class) */
+#digitalClock {
+  -fx-font-size: 14px;
+  -fx-font-family: 'Courier New';
+}

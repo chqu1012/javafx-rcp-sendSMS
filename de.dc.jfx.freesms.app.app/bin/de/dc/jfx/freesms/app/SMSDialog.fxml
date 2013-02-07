@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane hgap="10.0" prefHeight="400.0" prefWidth="400.0" vgap="10.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <Label prefWidth="100.0" text="Sender:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    <Label text="Receiver:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <TextField fx:id="receiverText" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+    <Label alignment="TOP_LEFT" contentDisplay="TOP" text="Message:" textAlignment="LEFT" GridPane.columnIndex="0" GridPane.rowIndex="2" GridPane.valignment="TOP" />
+    <TextArea fx:id="messageText" onKeyReleased="#countLettersEvent" prefWidth="200.0" wrapText="true" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+    <TextField fx:id="senderText" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+    <Label id="" fx:id="textLengthLabel" text="0 / 130" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="BOTTOM" />
+    <Label fx:id="nameLabel" prefWidth="50.0" text="" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+  </children>
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+</GridPane>

@@ -1,0 +1,13 @@
+/** clockdemo.css (place in the same directory as ClockDemo.java and ensure build script copies the file to the same location as ClockDemo.class) */
+#layout {
+  -fx-padding: 5;
+}
+
+#clocks {
+  -fx-padding: 8;
+}
+
+#backdrop {
+  -fx-background-color: linear-gradient(to bottom, cornsilk, wheat);
+  -fx-effect: dropshadow(three-pass-box, wheat, 10, 0, 0, 0);
+}

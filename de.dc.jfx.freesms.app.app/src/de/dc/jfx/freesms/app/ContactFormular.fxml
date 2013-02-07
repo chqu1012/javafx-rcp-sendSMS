@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane hgap="5.0" prefHeight="600.0" prefWidth="-1.0" vgap="5.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <Label text="Name:" GridPane.columnIndex="0" GridPane.hgrow="NEVER" GridPane.rowIndex="0" />
+    <Label text="Firstname:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <Label text="Mobile Number:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+    <Label text="Email:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+    <TextField fx:id="nameText" prefWidth="200.0" promptText="Give your name in the textfield" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+    <TextField fx:id="firstnameText" prefWidth="200.0" promptText="Give your firstname in the textfield" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+    <TextField fx:id="mobilenumberText" prefWidth="200.0" promptText="Give your mobile number in the textfield" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+    <TextField fx:id="emailText" prefWidth="200.0" promptText="Give your email adress in the textfield" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+    <ImageView fx:id="contactImage" blendMode="BLUE" disable="false" fitHeight="300.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS" GridPane.rowIndex="4" GridPane.valignment="TOP" GridPane.vgrow="ALWAYS" />
+    <Button mnemonicParsing="false" onAction="#createContactEvent" text="Create" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+  </children>
+  <padding>
+    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+  </padding>
+</GridPane>

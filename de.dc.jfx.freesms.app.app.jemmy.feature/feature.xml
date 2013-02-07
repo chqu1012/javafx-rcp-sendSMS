@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="de.dc.jfx.freesms.app.app.jemmy.feature"
+      label="DCQ Jemmy JUnit Feature"
+      version="1.0.0.qualifier"
+      provider-name="DCQ">
+
+   <description url="http://www.efxclipse.org">
+      TODO FILL WITH CONTENT
+   </description>
+
+   <copyright url="http://www.efxclipse.org">
+      TODO FILL WITH CONTENT
+   </copyright>
+
+   <license url="http://www.efxclipse.org">
+      TODO FILL WITH CONTENT
+   </license>
+
+   <requires>
+      <import plugin="org.junit4"/>
+      <import plugin="at.bestsolution.efxclipse.runtime.jemmy"/>
+      <import plugin="javax.inject"/>
+      <import plugin="javax.annotation"/>
+      <import plugin="at.bestsolution.efxclipse.runtime.javafx"/>
+      <import plugin="org.jemmy.fx.repackaged"/>
+   </requires>
+
+   <plugin
+         id="de.dc.jfx.freesms.app.app.jemmy"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

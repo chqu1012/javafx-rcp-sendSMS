@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_VM4K4GowEeKdHfbBZX698w" elementId="org.eclipse.e4.application" bindingContexts="_VMvA8GowEeKdHfbBZX698w">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_a9yZkGowEeKdHfbBZX698w" elementId="de.dc.jfx.freesms.app.trimmedwindow.0" x="10" y="10" width="1000" height="600">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_dnx6oGowEeKdHfbBZX698w" elementId="de.dc.jfx.freesms.app.perspectivestack.0">
+      <children xsi:type="advanced:Perspective" xmi:id="_d1j38GowEeKdHfbBZX698w" elementId="de.dc.jfx.freesms.app.perspective.0">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_exf7wGowEeKdHfbBZX698w" elementId="de.dc.jfx.freesms.app.partsashcontainer.0" horizontal="true">
+          <children xsi:type="basic:PartStack" xmi:id="_fPEBgGowEeKdHfbBZX698w" elementId="de.dc.jfx.freesms.app.partstack.0" containerData="40">
+            <children xsi:type="basic:Part" xmi:id="_4pg7QGozEeKdHfbBZX698w" elementId="de.dc.jfx.freesms.app.part.1" contributionURI="bundleclass://de.dc.jfx.freesms.app.app/de.dc.jfx.freesms.app.part.ContactPart" label="Contact Formular"/>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_f6IXwGowEeKdHfbBZX698w" elementId="de.dc.jfx.freesms.app.partstack.1" containerData="60">
+            <children xsi:type="basic:Part" xmi:id="_DN38wGoyEeKdHfbBZX698w" elementId="de.dc.jfx.freesms.app.part.0" contributionURI="bundleclass://de.dc.jfx.freesms.app.app/de.dc.jfx.freesms.app.part.AdbookPart" label="Adressbook"/>
+            <children xsi:type="basic:Part" xmi:id="_blY8kGpmEeKZ6bOecoQ24Q" elementId="de.dc.jfx.freesms.app.app.part.0" contributionURI="bundleclass://de.dc.jfx.freesms.app.app/de.dc.jfx.freesms.app.part.HistoryPart" label="History"/>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_dEZgwGowEeKdHfbBZX698w" elementId="de.dc.jfx.freesms.app.menu.0">
+      <children xsi:type="menu:Menu" xmi:id="_vzWBQGoyEeKdHfbBZX698w" elementId="de.dc.jfx.freesms.app.menu.1" label="File">
+        <children xsi:type="menu:DirectMenuItem" xmi:id="_u5N7UGoyEeKdHfbBZX698w" elementId="de.dc.jfx.freesms.app.directmenuitem.0" label="Exit" contributionURI="bundleclass://de.dc.jfx.freesms.app.app/de.dc.jfx.freesms.app.handler.ExitHandler"/>
+      </children>
+    </mainMenu>
+  </children>
+  <rootContext xmi:id="_VMvA8GowEeKdHfbBZX698w" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_VM4K4WowEeKdHfbBZX698w" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_VM4K4mowEeKdHfbBZX698w" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <addons xmi:id="_VM4K42owEeKdHfbBZX698w" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_VM4K5GowEeKdHfbBZX698w" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_VM4K5WowEeKdHfbBZX698w" elementId="at.bestsolution.efxclipse.runtime.bindings.e4.service" contributionURI="bundleclass://at.bestsolution.efxclipse.runtime.bindings.e4/at.bestsolution.efxclipse.runtime.bindings.e4.BindingServiceAddon"/>
+  <addons xmi:id="_VM4K5mowEeKdHfbBZX698w" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_VM4K52owEeKdHfbBZX698w" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_VM4K6GowEeKdHfbBZX698w" elementId="at.bestsolution.efxclipse.runtime.bindings.e4.model" contributionURI="bundleclass://at.bestsolution.efxclipse.runtime.bindings.e4/at.bestsolution.efxclipse.runtime.bindings.e4.BindingProcessingAddon"/>
+</application:Application>
